@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entity Extraction</title>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style.css') }} />
+
+</head>
+<body>
+    <h1>Entity Extraction Using Spacy</h1>
+    <form method="POST" action="{{ url_for('extract')}}">
+        <label for='rawtext'>Document for Entity Extraction</label>
+        <textarea rows="15" cols="100" required="true" name="rawtext" class="form-control">Enter your document here</textarea>
+        
+		<button type="reset" class="clear">Clear</button>
+        <button type="submit" class="submit">Submit</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entity Extraction</title>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style.css') }} />
+</head>
+
+<body>
+    <button><a class="button" href="/" role="button">Return</a></button>
+    </br>
+    </br>
+
+    <h2>Original Document</h2>
+    <div class="card mb-10 shadow-sm" id="original-text">
+        
+        <p>{{ rawtext }}</p>
+        
+    </div>
+
+    <h2>Document with Entities</h2>
+    <div class="card mb-10 shadow-sm" id="result-text">
+
+        <p>{{ result|markdown }}</p>
+        
+    </div>
+
+</body>
+</html>

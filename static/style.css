@@ -1,0 +1,34 @@
+.form-control {
+    display: block;
+}
+
+.clear {
+    align-self: start;
+    min-width: 5em;
+    display: inline-block;
+}
+
+.submit {
+    align-self: start; 
+    min-width: 5em;
+    display: inline-block;
+}
+
+#original-text {
+    background-color:grey;
+	color:#fff;
+	padding:10px;
+}
+
+#result-text {
+    background-color:#383838;
+	color:#fff;
+	padding:10px;
+}
+
+.button {
+    text-decoration: none;
+    align-self: start;
+    min-width: 5em;
+    display: block;
+}
