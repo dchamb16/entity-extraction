@@ -9,6 +9,6 @@ test:
 
 lint:
 	hadolint Dockerfile
-	pylint --disable=R,C,W2013 entity_extraction.py
+	pylint --disable=R,C,W2013 main.py
 
 all: install test lint
